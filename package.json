@@ -1,0 +1,21 @@
+{
+	"name": "benchmark-boilerplate",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon --ext ts --exec 'npm run start -- --dev'",
+		"start": "ts-node --transpile-only src/index.ts"
+	},
+	"dependencies": {
+		"benchmarkify": "latest",
+		"js-levenshtein": "latest",
+		"leven": "latest",
+		"string-fn": "latest"
+	},
+	"devDependencies": {
+		"@types/node": "latest",
+		"nodemon": "latest",
+		"ts-node": "latest",
+		"typescript": "latest"
+	}
+}
